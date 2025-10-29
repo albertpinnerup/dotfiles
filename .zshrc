@@ -149,8 +149,5 @@ unsetopt correct
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias sync-github-prod='curl -X POST https://cms.albertpinnerup.dev/api/github/sync \
-  -H "Authorization: Bearer 0856a171899bc76c6e36f9503d31f0df81a11d27ba001e2ff3e1d1179a355d4cfb12187086cc755ccba261a68f5713e8cd1bfa27ec9edbc4f65bbe6709a9a9da3d5a2e878f9a9fba40e40ac11bd4cf1c8c872e738ceab5dcc7a331bbca26903233c0df372469386eef113a964c86fa25ee5045a9b43a301fd21e831cca3cfd7d" \
-  -H "Content-Type: application/json"'
 
 eval "$(starship init zsh)"
