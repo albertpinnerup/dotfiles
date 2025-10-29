@@ -50,5 +50,5 @@ theme = Atom One Dark
 background-opacity = 0.8
 background-blur = true
 
-window-inherit-working-directory = false
-working-directory = "~/"
+window-inherit-working-directory = true
+working-directory = home
